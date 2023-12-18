@@ -1,6 +1,6 @@
 {
-  "name": "test-npm",
-  "version": "1.0.0",
+  "name": "@congqin/test-npm",
+  "version": "1.1.0",
   "description": "Test npm package.",
   "main": "index.js",
   "scripts": {

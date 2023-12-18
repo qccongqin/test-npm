@@ -1,9 +1,15 @@
-
 const upperCase = (txt) => {
-    if (typeof (txt) === 'string') {
-        return txt.toUpperCase();
-    }
-    return txt;
-}
+  if (typeof txt === "string") {
+    return txt.toUpperCase();
+  }
+  return txt;
+};
 
-module.exports = { upperCase }
+const lowerCase = (txt) => {
+  if (typeof txt === "string") {
+    return txt.toLowerCase();
+  }
+  return txt;
+};
+
+module.exports = { upperCase, lowerCase };
